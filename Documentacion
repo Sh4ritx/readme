@@ -1,0 +1,121 @@
+# Taller Individual GitHub
+
+**Área:** Algoritmos y Programación – Media Técnica
+**Tema:** GitHub y control de versiones
+**Nombre:** Shara Valentina Sarria Hernández 
+**Grado:** 11-2
+
+---
+
+## 1. Conceptos iniciales
+
+**1. ¿Qué es Git?**
+
+Git es un programa que se instala en el computador y que sirve para llevar un control de los cambios que se hacen en un proyecto, como si fuera un historial. Con Git uno puede guardar diferentes versiones de sus archivos a medida que va avanzando, y si algo sale mal, puede regresar a una versión anterior sin perder el trabajo. Por ejemplo, si estoy escribiendo el código de mi calculadora y la daño sin querer, con Git puedo volver a la versión que sí funcionaba.
+
+**2. ¿Qué es GitHub?**
+
+GitHub es una página web donde uno puede subir los proyectos que maneja con Git, para tenerlos guardados en internet y no solo en el computador. Es como una nube, pero pensada para programadores. Además de guardar el código, permite compartirlo con otras personas, mostrarlo como parte de un portafolio o trabajar en equipo en un mismo proyecto. Por ejemplo, yo puedo subir mi calculadora a GitHub y compartirle el link a mi profesor para que la revise sin tener que enviarle el archivo por otro lado.
+
+**3. ¿Cuál es la diferencia entre Git y GitHub?**
+
+La diferencia principal es que Git es el programa (la herramienta) que se usa para controlar las versiones del proyecto en el computador, mientras que GitHub es la página web donde se guarda ese proyecto en internet y se puede compartir. Es decir, Git funciona localmente, en mi computador, y GitHub funciona en línea. Uno puede usar Git sin usar GitHub, pero para subir el proyecto a internet sí se necesitan los dos trabajando juntos.
+
+**4. ¿Qué es un repositorio?**
+
+Un repositorio es como la carpeta principal de un proyecto dentro de GitHub, donde quedan guardados todos los archivos, carpetas y el historial de cambios de ese proyecto. Por ejemplo, el repositorio de este taller es la carpeta `taller-github-nombre-apellido`, que contiene el README, la carpeta del proyecto y la carpeta de documentación.
+
+**5. ¿Qué es un commit?**
+
+Un commit es como una "foto" o un registro que se guarda cada vez que se hace un cambio importante en el proyecto. Cada commit tiene un mensaje que explica qué se modificó, para que uno pueda entender después qué pasó en cada momento. Por ejemplo, un commit podría decir: "Se agregó la función de división a la calculadora".
+
+**6. ¿Qué es un branch o rama?**
+
+Un branch (o rama) es como una copia separada del proyecto donde uno puede hacer cambios o probar cosas nuevas sin afectar la versión principal. Si el cambio funciona bien, se puede unir de nuevo con el proyecto original; si no funciona, simplemente se descarta sin dañar nada. Por ejemplo, se podría crear una rama para probar una nueva función de la calculadora sin arriesgar la versión que ya funciona.
+
+**7. ¿Qué es un README?**
+
+El README es un archivo de texto que se coloca en la carpeta principal del repositorio y que explica de qué trata el proyecto: qué hace, cómo se usa, quién lo hizo, entre otras cosas. Es lo primero que ve una persona cuando entra al repositorio, así que sirve como una presentación del proyecto. Por ejemplo, el README de este taller explica que el proyecto es una calculadora hecha en Python.
+
+**8. ¿Qué es un repositorio público?**
+
+Un repositorio público es aquel que puede ser visto por cualquier persona en internet, así no tenga una cuenta de GitHub o no conozca al dueño del proyecto. Sirve, por ejemplo, para mostrar proyectos en un portafolio, ya que cualquiera puede entrar a revisarlo.
+
+**9. ¿Qué es un repositorio privado?**
+
+Un repositorio privado es aquel que solo puede ver el dueño del proyecto y las personas a las que él le dé permiso directamente. Es útil cuando el proyecto tiene información que no se quiere mostrar públicamente, como datos personales o trabajos que todavía están en proceso.
+
+**10. ¿Por qué es importante utilizar control de versiones en un proyecto de software?**
+
+Es importante porque permite llevar un orden de todos los cambios que se hacen en el proyecto, evita perder el trabajo si algo se daña, y facilita trabajar en equipo porque varias personas pueden modificar el mismo proyecto sin pisarse el trabajo unas a otras. Además, si algo deja de funcionar después de un cambio, se puede revisar el historial y volver a una versión anterior que sí funcionaba, en lugar de tener que empezar de nuevo.
+
+---
+
+## 2. Actividad 1 – Cuenta de GitHub
+
+**Nombre de usuario:** sh4ritx 
+**Correo utilizado:** svsarriah@iejega.edu.co
+**Fecha de creación:** 15-09-26
+
+### Preguntas
+
+**1. ¿Qué información puede observar una persona al ingresar a su perfil?**
+
+En el perfil de GitHub se puede observar información como el nombre de usuario, la foto, los repositorios que se han creado, los seguidores, las personas que uno sigue, la actividad reciente y un gráfico de contribuciones que muestra qué tan seguido se ha usado la cuenta para subir cambios a proyectos.
+
+**2. ¿Por qué un desarrollador puede utilizar GitHub como parte de su portafolio profesional?**
+
+Porque GitHub le permite a un desarrollador mostrar los proyectos reales que ha hecho, el código que escribe y cómo trabaja, lo cual es útil a la hora de buscar trabajo o mostrarle a alguien sus habilidades. Es como una hoja de vida, pero en vez de solo decir lo que uno sabe hacer, se puede ver el trabajo real que la persona ha realizado.
+
+**3. ¿Qué información personal debería evitar publicar en un repositorio?**
+
+Se debería evitar publicar información como contraseñas, correos personales, números de teléfono, direcciones, datos bancarios o cualquier información privada que pueda ser usada por otras personas de forma indebida. Esto es muy importante sobre todo en repositorios públicos, ya que cualquiera puede verlos.
+
+---
+
+## 3. Actividad 2 – Repositorio
+
+El repositorio creado para este taller se llama `taller-github-nombre-apellido` y contiene la siguiente estructura, tal como lo pide el taller:
+
+```
+taller-github-nombre-apellido/
+├── README.md
+├── proyecto/
+└── documentacion/
+```
+
+---
+
+## 4. Actividad 3 – Proyecto
+
+Para esta actividad se eligió la **Opción A: Calculadora**, ya que cumple con lo solicitado por el taller de forma sencilla y completa.
+
+El programa se realizó en Python y permite hacer las cuatro operaciones básicas: suma, resta, multiplicación y división, controlando además el error que se produce al intentar dividir entre cero. El archivo se encuentra en la ruta `proyecto/calculadora.py`.
+
+---
+
+## 5. Reflexión del proyecto
+
+**¿Qué se hizo en el proyecto?**
+
+Se creó un repositorio en GitHub organizado con un README, una carpeta para el proyecto y una carpeta para la documentación, y dentro del proyecto se desarrolló una calculadora en Python con las cuatro operaciones básicas.
+
+**¿Qué aprendí sobre Git?**
+
+Aprendí que Git permite guardar el avance de un proyecto por partes, mediante los commits, y que gracias a esto uno puede ver todo el historial de cambios que se han hecho, sin miedo a perder el trabajo si algo sale mal.
+
+**¿Qué aprendí sobre GitHub?**
+
+Aprendí que GitHub es la plataforma donde se guardan los proyectos en internet, y que sirve tanto para tener un respaldo del trabajo como para compartirlo con otras personas, por ejemplo con el profesor o con otros estudiantes.
+
+**¿Cómo se utilizó el control de versiones?**
+
+Se utilizó haciendo varios commits durante el desarrollo del proyecto, cada uno con un mensaje que explica qué se hizo, empezando por la creación de la calculadora y luego registrando los cambios que se le fueron haciendo.
+
+**¿Qué función cumple el README?**
+
+El README cumple la función de explicarle a cualquier persona que entre al repositorio qué es el proyecto, para qué sirve y cómo se usa, sin necesidad de revisar todo el código.
+
+**¿Qué función cumple el repositorio?**
+
+El repositorio cumple la función de ser el lugar donde se guarda y organiza todo el proyecto: el código, la documentación y el historial de cambios, todo en un mismo lugar accesible desde internet.
